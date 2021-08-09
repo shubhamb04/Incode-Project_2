@@ -6,24 +6,61 @@
     <title>Mr.Coffee | Cafe</title>
     <link rel="icon" href="./Assets/logo_blanc.png" type = "image/x-icon">
     <link rel="stylesheet" href="application.css">
+    <script src="https://kit.fontawesome.com/50546bb458.js"></script>
 </head>
 <body>
-    <nav>
-        <img src="./Assets/full_logo_white.png" alt="website logo">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <footer>
-        <img src="./Assets/logo_blanc.png" alt="logo">
+    <header>
+        <div class="nav-bar">
+            <img src="./Assets/full_logo_white.png" alt="logo" class="nav-logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About&nbsp;Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="check-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+        <img src="./Assets/logo_mrcoffee.png" alt="logo_mrcoffee" class="logo-mrcoffee">
+    </header>
+    <main>
+        <section class="img-container">
+            <h2 class="img-text">DISCOVER OUR PHILO COFFEE</h2>
+            <img src="./Assets/mr_coffee_salle.jpg" alt="pic inside cafe">
+        </section>
+        <section>
+            <h2 class="speciality-heading">At Mr. Coffee,<br> we love three things!</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img class="card-icon" src="./Assets/icon_café.png" alt="">
+                    <h3 class="card-heading">Good Coffee</h3>
+                    <p class="card-text">Our priorities: quality and taste. All our coffees are carefully selected in accordance with our values ​​of respect for nature and people.</p>
+                </div>
+                <div class="card">
+                    <img class="card-icon" src="./Assets/icon_gens.png" alt="">
+                    <h3 class="card-heading">People</h3>
+                    <p class="card-text">We are those who believe that together we go further, which is why at Mr. Coffee, our mission is to bring people together by offering them a place of freedom and sharing.</p>
+                </div>
+                <div class="card">
+                    <img class="card-icon" src="./Assets/icon_histoires.png" alt="">
+                    <h3 class="card-heading">The Stories</h3>
+                    <p class="card-text">At Mr. Coffee, whether you are a poet, a whimsical or a philosopher, we offer you a place to talk about your stories, or to write them.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- <footer>
+        <img src="./Assets/logo_blanc.png" alt="logo" class="logo">
         <div>
             <p>Suivez nous sur les réseaux sociaux !</p>
             <div>
 
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
