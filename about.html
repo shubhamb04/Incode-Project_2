@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr.Coffee | Cafe</title>
-    <link rel="icon" href="./Assets/logo_blanc.png" type = "image/x-icon">
-    <link rel="stylesheet" href="application.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mr.Coffee | Cafe</title>
+        <link rel="icon" href="./Assets/logo_blanc.png" type = "image/x-icon">
+        <link rel="stylesheet" href="application.css">
+        <script src="https://kit.fontawesome.com/50546bb458.js"></script>
+    </head>
 <body>
     <header>
-        <div class="nav-bar">
-            <img src="./Assets/full_logo_white.png" alt="logo" class="nav-logo">
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About&nbsp;Us</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="nav-bar flex">
+            <a href="./index.html"><img src="./Assets/full_logo_white.png" alt="logo" class="nav-logo"></a>
+            <input type="checkbox" id="check-toggle">
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About&nbsp;Us</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            
+            <label for="check-toggle" class="check-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </nav>
         <img src="./Assets/logo_mrcoffee.png" alt="logo_mrcoffee" class="logo-mrcoffee">
     </header>
     <main>

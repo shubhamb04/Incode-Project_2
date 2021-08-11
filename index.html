@@ -10,77 +10,76 @@
 </head>
 <body>
     <header>
-        <div class="nav-bar">
-            <img src="./Assets/full_logo_white.png" alt="logo" class="nav-logo">
-            <nav>
-                <ul class="nav-links">
-                    <li><a class="active" href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About&nbsp;Us</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="check-btn">
+        <nav class="nav-bar flex">
+            <a href="./index.html"><img src="./Assets/full_logo_white.png" alt="logo" class="nav-logo"></a>
+            <input type="checkbox" id="check-toggle">
+            <ul class="nav-links">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./about.html">Qui&nbspsommes-nous?</a></li>
+                <li><a href="./contact.html">Nous&nbspcontacte</a></li>
+            </ul>
+            
+            <label for="check-toggle" class="check-btn">
                 <i class="fas fa-bars"></i>
             </label>
-        </div>
+        </nav>
         <img src="./Assets/logo_mrcoffee.png" alt="logo_mrcoffee" class="logo-mrcoffee">
     </header>
     <main>
         <section class="img-container section_1">
-            <h2 class="img-text">DISCOVER OUR PHILO COFFEE</h2>
+            <h2 class="img-text">DÉCOUVREZ NOTRE CAFÉ PHILO</h2>
             <img src="./Assets/mr_coffee_salle.jpg" alt="pic inside cafe">
         </section>
         <section class="section_2">
-            <h2 class="speciality-heading">At Mr. Coffee,<br> we love three things!</h2>
+            <h2 class="speciality-heading">Chez Mr.Coffee,<br>nous aimons trois choses</h2>
             <div class="cards-container">
                 <div class="card">
-                    <img class="card-icon" src="./Assets/icon_café.png" alt="">
-                    <h3 class="card-heading">Good Coffee</h3>
-                    <p class="card-text">Our priorities: quality and taste. All our coffees are carefully selected in accordance with our values ​​of respect for nature and people.</p>
+                    <img class="card-icon" src="./Assets/icon_café.png" alt=" cafe icon">
+                    <h3 class="card-heading">Le bon café</h3>
+                    <p class="card-text">Nos priorités : la qualité et le goût. Tous nos cafés sont soigneusements séléctionnés en accord avec nos valeurs de respect de la nature et des hommes.</p>
                 </div>
                 <div class="card">
-                    <img class="card-icon" src="./Assets/icon_gens.png" alt="">
-                    <h3 class="card-heading">People</h3>
-                    <p class="card-text">We are those who believe that together we go further, which is why at Mr. Coffee, our mission is to bring people together by offering them a place of freedom and sharing.</p>
+                    <img class="card-icon" src="./Assets/icon_gens.png" alt="icon for together">
+                    <h3 class="card-heading">Les gens</h3>
+                    <p class="card-text">Nous sommes de ceux qui pensent qu’ensemble, nous allons plus loin.C’est pourquoi chez Mr.Coffee, notre mission est de rassembler les gens en leur offrant un lieu de liberté et de partages.</p>
                 </div>
                 <div class="card">
-                    <img class="card-icon" src="./Assets/icon_histoires.png" alt="">
-                    <h3 class="card-heading">The Stories</h3>
-                    <p class="card-text">At Mr. Coffee, whether you are a poet, a whimsical or a philosopher, we offer you a place to talk about your stories, or to write them.</p>
+                    <img class="card-icon" src="./Assets/icon_histoires.png" alt="icon of book">
+                    <h3 class="card-heading">Les histoires</h3>
+                    <p class="card-text">Chez Mr.Coffee, que vous soyez poête, fantasque ou philosophe, nous vous offrons un lieu pour parler de vos histoires, ou pour les écrire.</p>
                 </div>
             </div>
-            <button class="find-more">Find out more</button>
+            <button class="find-more">En savoir plus</button>
         </section>
         <section class="section_3">
-            <h2 class="discover-heading">Discover our program</h2>
+            <h2 class="discover-heading">Découvrez notre progamme</h2>
             <div class="open-info">
                 <img class="open-cafe" src="./Assets/icon_open.png" alt="image saying cafe open">
-                <h3>Your café welcomes you 7 days a week</h3>
+                <h3>Votre café vous accueille 7j/7 :</h3>
             </div>
             <div class="programe-container">
                 <div class="program">
-                    <p>Every Tuesday,<br> find the <strong>poetry cafes:</strong></p>
-                    <p><strong>Come listen or read your most beautiful poems: Mr. Coffee offers a drink to all the brave!</strong></p>
+                    <p class="program-text">Tous les mardis,<br>retrouvez <strong>les cafés poésies :</strong></p>
+                    <p><strong>Venez écouter ou lire vos plus beaux poèmes : Mr.Coffee offre une consommation à tous les courageux !</strong></p>
                 </div>
                 <div class="program">
-                    <p>Every Thursday,<br> find the <strong>philosophy and debate cafes:</strong></p>
-                    <p><strong>Around a philosophical or social theme, come and discuss between experts or simply curious.</strong></p>
+                    <p class="program-text">Tous les jeudis,<br>retrouvez<strong>les cafés philo et débat :</strong></p>
+                    <p><strong>Autour d’un thème philosophique ou de société, venez débattre entre experts ou simple curieux.</strong></p>
                 </div>
             </div>
-            <p>Not to mention our writing workshops and special events!</p>
-            <p><strong>Go to our Contact page to find all the practical information.</strong></p>
+            <p>Sans oublier nos ateliers d’écritures et évènements excéptionnels !</p>
+            <p><strong>Rendez-vous sur notre page Contact pour retrouver<br>toutes les infos pratiques</strong></p>
         </section>
     </main>
     
     <footer>
         <img src="./Assets/logo_blanc.png" alt="logo" class="footer-logo">
         <div class="social-links">
-            <p class="footer-text">Follow us on social networks!</p>
-            <div>
-                <img class="social-logo" src="./Assets/logo_linkedin.png" alt="">
-                <img class="social-logo" src="./Assets/logo_twitter.png" alt="">
-                <img class="social-logo" src="./Assets/logo_facebook.png" alt="">
+            <p class="footer-text">Suivez nous sur les réseaux sociaux !</p>
+            <div class="social-link-container">
+                <a href=""><img class="social-logo" src="./Assets/logo_linkedin.png" alt="linked icon"></a>
+                <img class="social-logo" src="./Assets/logo_twitter.png" alt="twitter icon">
+                <img class="social-logo" src="./Assets/logo_facebook.png" alt="facebook icon">
             </div>
         </div>
     </footer>
