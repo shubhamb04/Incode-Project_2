@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 :root{
     --primary-color: #6a7b8b;
@@ -6,6 +6,11 @@
     --background-color: #f5f5f5;
     --font-color: #5c5b5b;
     --white-color: #fff;
+    --font-one: 1rem;
+    --font-two: 1.125rem;
+    --font-three: 1.625rem;
+    --font-four: 1.412rem;
+    
 }
 
 *{
@@ -17,8 +22,8 @@
 }
 
 body{
-    font-family: sans-serif;
-    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: var(--font-one);
     font-weight: normal;
     color: var(--font-color);
 }
@@ -62,7 +67,7 @@ a:hover{
 
 .check-btn{
     color: white;
-    font-size: 2em;
+    font-size: 2rem;
     display: none;
     cursor: pointer;
 }
@@ -103,7 +108,7 @@ a:hover{
 
 .speciality-heading{
     text-align: center;
-    font-size: 4vw;
+    font-size: var(--font-four);
     margin: 3rem;
 }
 
@@ -136,6 +141,7 @@ a:hover{
 
 .card-heading{
     text-shadow: 1px 1px 7px rgba(51,51,51,255);
+    margin: 1rem;
 }
 
 .card-icon{
@@ -144,7 +150,7 @@ a:hover{
 }
 
 .section_3 > *{
-    margin: 2em;
+    margin: 2em 0;
 }
 
 h2.discover-heading {
@@ -171,7 +177,7 @@ h2.discover-heading {
 .discover-heading{
     text-align: center;
     font-weight: 900;
-    font-size: 1.625em;
+    font-size: var(--font-three);
     letter-spacing: 1px;
 }
 
@@ -190,23 +196,17 @@ h2.discover-heading {
 }
 
 .programe-container{
-    max-width: 70%;
+    max-width: 85%;
     margin: auto;   
 }
 
 a{
     color: var(--primary-color);
-    text-decoration: underline;
-}
-
-a:hover{
-    color: var(--font-color);
 }
 
 .program{
-    font-size: 1.125em;
+    font-size: var(--font-two);
     font-weight: 100;
-   
     margin-bottom: 3em;
 }
 
@@ -292,14 +292,21 @@ footer{
         display: grid;
         grid-template-columns: repeat(3 , minmax(250px, 1fr));
         margin: 0 auto;
-        grid-gap: 0 1rem;
+        grid-gap: 0 3rem;
+        width: 85%;
+        padding: 0;
     }
     .card{
         min-width: 200px;
     }
 
+    .speciality-heading{
+        font-size: var(--font-three);
+    }
+
     .section_3{
-        padding: 0 2rem;
+        width: 85%;
+        margin: 0 auto;
     }
 
     .open-info {
@@ -348,9 +355,9 @@ img.about-img {
 }
 
 h3.about-card-heading {
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 3rem;
-    font-size: 1.4rem;
+    font-size: 1.225rem;
 }
 
 .about-text-card p {
@@ -365,16 +372,17 @@ h3.about-card-heading {
 
 /* adding media query to about page...... */
 
-@media (min-width: 768px){
-
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .about-container{
         display: flex;
         justify-content: space-between;
         padding: 2rem 5rem;  
     }
-
     .about-text-card{
         width: 60%;
+        
     }
 
     .text-card-order{
@@ -387,13 +395,14 @@ h3.about-card-heading {
 
     .gap-1{
         margin-right: 2rem;
+        padding: 4rem 0;
     }
 
     .gap-2{
         margin-left: 2rem;
     }
-}
 
+}
 
 /* contact page styling.... */
 
