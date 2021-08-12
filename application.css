@@ -430,11 +430,6 @@ address{
 }
 
 @media (min-width: 1024px) {
-    .footer-fixed{
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-    }
 
     .contact-container{
         padding:4rem 9rem;
