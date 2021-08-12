@@ -95,7 +95,7 @@ a:hover{
 .img-text{
     position: absolute;
     left: 50%;
-    top: 12%;
+    top: 20%;
     transform: translate(-50%, -50%);
     font-size: 4vw;
     text-shadow: 2px 2px 8px rgba(51,51,51,255);
@@ -104,6 +104,7 @@ a:hover{
 .speciality-heading{
     text-align: center;
     font-size: 4vw;
+    margin: 3rem;
 }
 
 .cards-container{
@@ -127,6 +128,10 @@ a:hover{
 
 .card * {
     margin: .5rem 0;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 10px 2px var(--primary-color);
 }
 
 .card-heading{
@@ -158,6 +163,11 @@ h2.discover-heading {
     cursor: pointer;
 }
 
+.find-more:hover{
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}
+
 .discover-heading{
     text-align: center;
     font-weight: 900;
@@ -182,6 +192,15 @@ h2.discover-heading {
 .programe-container{
     max-width: 70%;
     margin: auto;   
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+a:hover{
+    color: var(--font-color);
 }
 
 .program{
@@ -211,6 +230,7 @@ footer{
 
 .footer-logo{
     width: 50px;
+    cursor: pointer;
 }
 
 .social-logo{
@@ -375,5 +395,62 @@ h3.about-card-heading {
 }
 
 
+/* contact page styling.... */
 
+.contact-container{
+    padding: 2rem;
+    line-height: 1.4rem;    
+    box-sizing: border-box;
+}
 
+img.contact-map{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.contact-heading{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+address{
+    font-style: normal;
+}
+
+.contact-card{
+    margin: 2rem 0;
+}
+
+/* adding media query to contact page..... */
+
+@media (min-width: 768px){
+    .contact-container{
+        padding: 2rem 9rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-fixed{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .contact-container{
+        padding:4rem 9rem;
+        overflow: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    img.contact-map{
+        width: 700px;
+    }
+
+    .contact-container{
+        padding:4rem 12rem;
+        overflow: auto;
+    }
+
+}
