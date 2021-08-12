@@ -8,4 +8,4 @@
 
 ## Challenges
 - One challenging task for me was to toggle menu without javaScript.
-- I never did it before, so i learned it and implmented.
+- I never did it before only with CSS, so i learned it and implmented.
