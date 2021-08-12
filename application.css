@@ -241,7 +241,7 @@ footer{
 .social-link-container{
     width: 50%;
     margin: 0 auto;
-    padding: 1rem 0;
+    padding-top: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -328,6 +328,7 @@ footer{
     footer{
         display: grid;
         grid-template-columns: 50px 1fr;
+        padding: 0 2rem;
     }
 
     p.footer-text {
