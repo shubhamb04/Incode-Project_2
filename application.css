@@ -59,9 +59,10 @@ nav ul li a{
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: .1rem;
+    text-shadow: 1px 1px 2px var(--secondary-color);
 }
 
-a:hover{
+nav ul li a:hover{
     border-bottom: 1px solid var(--white-color);
 }
 
@@ -81,6 +82,54 @@ a:hover{
     display: block;
     margin: 0 auto;
 }
+
+
+/* media query for navigation...... */
+
+@media (max-width: 768px) {
+    .nav-logo{
+        width: 140px;
+    }
+
+    .logo-mrcoffee{
+        width: 150px;
+    }
+
+    .check-btn{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 6rem;
+        right: -1000%;
+        width: 100%;
+        height: 50vh;
+        background-color: var(--secondary-color);
+        z-index: 1000;
+        padding: 4rem;
+        text-align: center;
+        opacity: 1;
+        transition: all .5s ease-in-out;
+    }
+
+    nav ul li{
+        display: block;
+        margin-bottom: 3rem;
+        margin-left: 0;
+    }
+
+    nav ul li a{
+        color: var(--white-color);
+        text-shadow: 2px 2px 5px var(--font-color);
+    }
+
+    #check-toggle:checked + .nav-links {
+        right: 0;
+    }
+
+
+} 
 
 /* main content styling........... */
 
@@ -243,48 +292,9 @@ footer{
     padding-top: 1rem;
 }
 
-@media (max-width: 768px) {
-    .nav-logo{
-        width: 140px;
-    }
-
-    .logo-mrcoffee{
-        width: 150px;
-    }
-
-    .check-btn{
-        display: block;
-    }
-
-    .nav-links{
-        position: fixed;
-        top: 6rem;
-        right: -1000%;
-        width: 100%;
-        height: 50vh;
-        background-color: var(--secondary-color);
-        z-index: 1000;
-        padding: 2rem;
-        text-align: center;
-        opacity: 1;
-        transition: all .5s ease-in-out;
-    }
-
-    nav ul li{
-        display: block;
-        margin-bottom: 2rem;
-    }
-
-    nav ul li a{
-        color:var(--white-color);
-    }
-
-    #check-toggle:checked + .nav-links {
-        right: 0;
-    }
 
 
-} 
+/* media query for cards on home page..... */
 
 @media (min-width: 1024px) {
     .cards-container{
@@ -356,13 +366,15 @@ img.about-img {
 
 h3.about-card-heading {
     font-weight: 500;
-    /* margin-bottom: 3rem; */
     font-size: 1.225rem;
 }
 
 .about-text-card p {
-    /* margin-bottom: 2rem; */
     font-weight: 100;
+}
+
+.img-box, .about-text-card p {
+    margin: 2rem 0;
 }
 
 .about-img{
@@ -391,13 +403,16 @@ h3.about-card-heading {
         order: 2;
     }
 
+    .img-box,.about-text-card p{
+        margin: 0;
+    }
+
     .img-order{
         order: 1;
     }
 
     .gap-1{
         margin-right: 2rem;
-        /* padding: 4rem 0; */
     }
 
     .gap-2{
@@ -409,7 +424,6 @@ h3.about-card-heading {
 /* contact page styling.... */
 
 .contact-container{
-    /* padding: 2rem; */
     width: 70%;
     margin: 2rem auto;
     line-height: 1.4rem;    
