@@ -9,7 +9,7 @@ This is the desktop view
 ![](Assets/mrcoffeewebpage.png)
 
 And the mobile view
-![](Assets/IMG_0638.jpg)
+<img src="Assets/IMG_0638.jpg" >
 
 
 ## Flexbox & Grid
