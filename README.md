@@ -7,7 +7,7 @@
 ![](Assets/mrcoffeewebpage.png)
 
 ## Flexbox & Grid
-- I implemented flexbox and grid, this project helped me get better understanding of both.
+- I used flexbox and grid to implement complex responsive layouts, this project helped me get better understanding of both.
 - It was pretty easy to align the elements with the help of Grid and Flexbox.
 
 ## Challenges
