@@ -4,6 +4,8 @@
 - Since client is based in France, so he wanted this project to be in french to target local audience.
 - Followed SEO best practices for on-page optimization. 
 
+![./Assets/mrcoffeewebpage.png]
+
 ## Flexbox & Grid
 - I implemented flexbox and grid, this project helped me get better understanding of both.
 - It was pretty easy to align the elements with the help of Grid and Flexbox.
