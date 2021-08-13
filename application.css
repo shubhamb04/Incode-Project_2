@@ -120,7 +120,7 @@ a:hover{
 .card{
     background-color: var(--secondary-color);
     text-align: center;
-    padding:1em;
+    padding:2em;
     color: white;
     border-radius: 5px;
     box-shadow: 1px 1px 5px 1px gray;
@@ -129,10 +129,9 @@ a:hover{
     letter-spacing: 1px;
     line-height: 1.225em;
     max-width: 400px;
-}
-
-.card * {
-    margin: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card:hover {
@@ -263,11 +262,11 @@ footer{
         right: -1000%;
         width: 100%;
         height: 50vh;
-        background-color: var(--primary-color);
+        background-color: var(--secondary-color);
         z-index: 1000;
         padding: 2rem;
         text-align: center;
-        opacity: .9;
+        opacity: 1;
         transition: all .5s ease-in-out;
     }
 
