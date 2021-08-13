@@ -4,7 +4,7 @@
 - Since client is based in France, so he wanted this project to be in french to target local audience.
 - Followed SEO best practices for on-page optimization. 
 
-You can visit the website here [Mr.Coffee](https://shubhamb04.github.io/Incode-firstProject/about.html)
+You can visit the website here [Mr.Coffee](https://shubhamb04.github.io/Incode-firstProject/index.html)
 
 ![](Assets/mrcoffeewebpage.png)
 
