@@ -357,12 +357,12 @@ img.about-img {
 
 h3.about-card-heading {
     font-weight: 500;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     font-size: 1.225rem;
 }
 
 .about-text-card p {
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
     font-weight: 100;
 }
 
@@ -383,7 +383,9 @@ h3.about-card-heading {
     }
     .about-text-card{
         width: 60%;
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .text-card-order{
@@ -396,7 +398,7 @@ h3.about-card-heading {
 
     .gap-1{
         margin-right: 2rem;
-        padding: 4rem 0;
+        /* padding: 4rem 0; */
     }
 
     .gap-2{
@@ -408,7 +410,9 @@ h3.about-card-heading {
 /* contact page styling.... */
 
 .contact-container{
-    padding: 2rem;
+    /* padding: 2rem; */
+    width: 70%;
+    margin: 2rem auto;
     line-height: 1.4rem;    
     box-sizing: border-box;
 }
