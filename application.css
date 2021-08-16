@@ -462,17 +462,9 @@ address{
         padding:4rem 9rem;
         overflow: auto;
     }
-}
-
-@media (min-width: 1024px) {
 
     img.contact-map{
         width: 700px;
     }
-
-    .contact-container{
-        padding:4rem 12rem;
-        overflow: auto;
-    }
-
 }
+
