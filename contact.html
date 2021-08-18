@@ -31,34 +31,35 @@
         <img src="./Assets/logo_mrcoffee.png" alt="logo_mrcoffee" class="logo-mrcoffee">
     </header>
     <main>
-        <section>
-            <h1>Dites nous tout !</h1>
-            <form action="/" class="form" id="form">
+        <h1 class="contactform_heading">Dites nous tout !</h1>
+        <section class="contact-container">
+            <form action="/" id="form">
                 <div>
-                    <label for="fname">Nom</label>
-                    <input type="text" name="fname" id="fname">
+                    <label for="fname">Nom *</label>
+                    <input type="text" name="first_name" id="fname" required>
                 </div>
                 <div>
-                    <label for="lname">Prénom</label>
-                    <input type="text" name="lname" id="lname">
+                    <label for="lname">Prénom *</label>
+                    <input type="text" name="last_name" id="lname" required>
                 </div>
                 <div>
                     <label for="telephone">Téléphone</label>
-                    <input type="number" name="telephone" id="telephone">
+                    <input name="user_telephone" id="telephone" required>
                 </div>
                 <div>
-                    <label for="email">Adresse mail</label>
-                    <input type="email" name="email" id="email">
+                    <label for="email">Adresse mail *</label>
+                    <input type="email" name="user_email" id="email" required>
                 </div>
                 <div>
-                    <label for="message">Message</label>
-                    <input type="text" name="message" id="message">
+                    <label for="message">Message *</label>
+                    <textarea name="user_message" id="message" row="5"></textarea>
                 </div>
+                <button id="submit_btn" type="submit">Submit</button>
             </form>
         </section>
-        <section>
+        <section class="contact-container">
             <h2 class="contact-heading">On vous attend !</h2>
-        <div class="contact-container">
+        <div class="">
             <address>
                 <strong>Mr.Coffee</strong><br>15 place Jules Guesde<br>75006 Paris
             </address>
