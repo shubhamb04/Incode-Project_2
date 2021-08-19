@@ -1,10 +1,11 @@
-# Incode-FirstProject MR. COFFEE
+# Incode-Project_2 MR. COFFEE
 - Building a website for a cafe Mr.Coffee.
 - As a requirement from the client, it is built using only in HTML & CSS.
+- Used javaScript for contact form validation and handling.
 - Since client is based in France, so he wanted all the content to be in french to target local audience.
 - Followed the best SEO practices for on-page optimization. 
 
-You can visit the website here [Mr.Coffee](https://shubhamb04.github.io/Incode-firstProject/index.html)
+You can visit the website here [Mr.Coffee](https://shubhamb04.github.io/Incode-Project_2/index.html)
 
 ![](Assets/mrcoffeewebpage.png)
 
