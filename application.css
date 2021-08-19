@@ -441,22 +441,31 @@ form div input, textarea{
     font: var(--font-one);
     box-sizing: border-box;
     outline: none;
+    box-shadow: 1px 1px 4px 1px var(--primary-color);
 }
 
-form div input:focus, textarea:focus, #submit_btn:hover{
+form div input:focus, textarea:focus{
     background-color: var(--primary-color);
 }
 
 #submit_btn{
     display: block;
     margin: 0 auto;
-    padding: .5rem 1rem;
+    padding: .6rem 2rem;
     background-color: var(--secondary-color);
     border: none;
     margin-top: 2rem;
     color: var(--white-color);
     font-size: var(--font-one);
+    font-weight: bolder;
     cursor: pointer;
+    transition: .3s;
+    /* border-radius: .3rem; */
+    box-shadow: 1px 1px 5px 1px var(--secondary-color);
+}
+
+#submit_btn:hover{
+    background-color: var(--primary-color);
 }
 
 img.contact-map{

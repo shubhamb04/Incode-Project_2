@@ -38,6 +38,7 @@ img.modal-logo{
 }
 
 button.modal-closebtn {
+    position: relative;
     padding: .5rem 2rem;
     border: none;
     background-color: #6a7b8b;
@@ -46,7 +47,17 @@ button.modal-closebtn {
     border-radius: .3rem;
     font-weight: bolder;
     box-shadow: 1px 1px 5px 1px #5c5b5b;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
+
+button.modal-closebtn:hover, button.modal-closebtn:focus{
+    background-color: #bbc2c9;
+    color: #5c5b5b;
+
+}
+
+
 
 @media (min-width: 768px){
     .modal-intro-card {
