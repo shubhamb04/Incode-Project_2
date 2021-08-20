@@ -54,22 +54,22 @@ const validateInputs = () => {
     inputs.forEach(resetInputField);
     isFormValid = true;
 
-    if(!isValidName(firstName.value)){
+    if(!isValidName(firstName.value.trim())){
         setErrorMessage(firstName);
         isFormValid = false;
     }
 
-    if(!isValidName(lastName.value)){
+    if(!isValidName(lastName.value.trim())){
         setErrorMessage(lastName);
         isFormValid = false;
     }
 
-    if(!isPhoneValid(telephone.value)){
+    if(!isPhoneValid(telephone.value.trim())){
         setErrorMessage(telephone);
         isFormValid = false;
     }
 
-    if(!isValidEmail(emailId.value)){
+    if(!isValidEmail(emailId.value.trim())){
         setErrorMessage(emailId);
         isFormValid = false;
     }
