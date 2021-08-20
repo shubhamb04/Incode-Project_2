@@ -430,13 +430,14 @@ h3.about-card-heading {
     box-sizing: border-box;
 }
 
+
 form div input, textarea{
     display: block;
     width: 100%;
     border: none;
     background-color: var(--secondary-color);
     color: var(--white-color);
-    margin:.5rem 0 1rem 0;
+    margin-top:.5rem;
     padding: .5rem;
     font: var(--font-one);
     box-sizing: border-box;
@@ -446,6 +447,14 @@ form div input, textarea{
 
 form div input:focus, textarea:focus{
     background-color: var(--primary-color);
+}
+
+.form-control{
+    margin:.5rem 0 1rem 0;
+}
+
+.hidden{
+    display: none;
 }
 
 #submit_btn{

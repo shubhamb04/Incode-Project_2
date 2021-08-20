@@ -13,6 +13,10 @@ You can visit the website here [Mr.Coffee](https://shubhamb04.github.io/Incode-P
 - I used flexbox and grid to implement complex responsive layouts, this project helped me get better understanding of both.
 - It was pretty easy to align the elements with the help of Grid and Flexbox.
 
+## Form Validation
+- Validating each input field with proper validation in javaScript.
+- Used regular expression for the input validation.
+
 ## Challenges
 - One challenging task for me was to toggle menu without javaScript.
 - I never did it before only with CSS, so it was something new i learned.
@@ -20,3 +24,4 @@ You can visit the website here [Mr.Coffee](https://shubhamb04.github.io/Incode-P
 ## Future Implementation
 - I am hoping to add some interactive features, planning on making it fully interactive.
 - Going to use other styling options to write more clean codes.
+
